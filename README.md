@@ -1,7 +1,7 @@
 CodeIgniter Chrome Logger
 =========================
 
-A CodeIgniter Chrome Logger helper.
+A CodeIgniter [Chrome Logger](http://craig.is/writing/chrome-logger) helper.
 
 Installation
 ------------
