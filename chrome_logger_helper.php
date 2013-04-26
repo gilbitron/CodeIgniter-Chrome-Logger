@@ -10,6 +10,11 @@
  */
 function chrome_log($object, $type = 'log')
 {
+	if(!file_exists(APPPATH .'third_party/ChromePhp.php')){
+		echo 'Missing required file: third_party/ChromePhp.php';
+		return;
+	}
+	
 	require_once APPPATH .'third_party/ChromePhp.php';
 	if($type == 'warn') ChromePhp::warn($object);
 	else if($type == 'error') ChromePhp::error($object);
