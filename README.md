@@ -16,6 +16,7 @@ Usage
 To use the function simply do:
 
 ```php
+$this->load->helper('chrome_logger');
 chrome_log($object);
 ```
 
